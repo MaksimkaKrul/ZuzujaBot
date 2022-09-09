@@ -60,11 +60,11 @@ def callback_worker(call):
 
     elif call.data == "scissors":
         if bot_choice == 'камінь':
-            bot.send_message(call.message.chat.id, 'Ти переміг!')
-        elif bot_choice == 'папір':
-            bot.send_message(call.message.chat.id, 'У нас нічия!')
-        else:
             bot.send_message(call.message.chat.id, 'Ти програв!')
+        elif bot_choice == 'папір':
+            bot.send_message(call.message.chat.id, 'У нас виграв!')
+        else:
+            bot.send_message(call.message.chat.id, 'У нас нічия!')
 
 
 @bot.message_handler(commands=['discordnews'])
