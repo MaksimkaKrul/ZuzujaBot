@@ -1,0 +1,4 @@
+discord.py == 2.0.1
+pyTelegramBotAPI == 4.7.0
+emoji == 2.0.0
+discordemoji == 0.0.1
