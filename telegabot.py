@@ -62,7 +62,7 @@ def callback_worker(call):
         if bot_choice == 'камінь':
             bot.send_message(call.message.chat.id, 'Ти програв!')
         elif bot_choice == 'папір':
-            bot.send_message(call.message.chat.id, 'У нас виграв!')
+            bot.send_message(call.message.chat.id, 'Ти виграв!')
         else:
             bot.send_message(call.message.chat.id, 'У нас нічия!')
 
